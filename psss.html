@@ -1,73 +1,249 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مراكز العلاج والتخاطب</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; direction: rtl; padding: 20px; background-color: #f4f4f4; }
-        .container { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); width: 100%; max-width: 600px; margin-bottom: 20px; }
-        h2 { font-size: 24px; color: #333; text-align: right; }
-        .section { margin-bottom: 15px; }
-        .section strong { color: #007bff; }
-        .contact { margin-top: 10px; display: flex; gap: 10px; align-items: center; }
-        .contact a { text-decoration: none; font-size: 18px; display: inline-flex; align-items: center; gap: 5px; }
-        .contact a i { font-size: 20px; }
-        .contact a.whatsapp { color: #25d366; }
-        .contact a.telegram { color: #0088cc; }
-        .contact a:hover { opacity: 0.8; }
-        .buttons { margin-top: 20px; text-align: right; }
-        .buttons a { text-decoration: none; margin-left: 10px; font-size: 16px; }
-        .btn-back { background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; }
-        .btn-back:hover { background-color: #0056b3; }
-    </style>
+    <title>مراكز التأهيل</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- مركز الشامل لرعاية الطفل -->
-    <div class="container">
-        <h4>رقم التعريفي: 79</h4>
-        <h2>مركز الشامل لرعاية الطفل</h2>
-        <div class="section"><strong>اسم المركز:</strong> مركز الشامل لرعاية الطفل</div>
-        <div class="section"><strong>عنوان المركز:</strong> تقاطع الشازلي السلام عبد شارع البحيرة دمنهور منصور محمود شارع</div>
-        <div class="section"><strong>المحافظة:</strong> البحيرة</div>
-        <div class="section"><strong>مواعيد العمل:</strong> من 9 صباحاً إلى 9 مساءً</div>
-        <div class="section"><strong>نظام المركز:</strong> جلسات فردية</div>
-        <div class="section"><strong>أنواع الجلسات:</strong> تعديل سلوك، تدخل مبكر، تنمية مهارات، تكامل حسي، تخاطب، علاج طبيعي، علاج وظيفي، علاج مائي، صعوبات حركية، تأهيل أسري، إرشاد، تعلم الدمج للأطفال، تأهيل مجموعات بالحضانة، أنشطة للأطفال المتأخرين.</div>
-        <div class="section"><strong>الأنشطة المستخدمة داخل المركز:</strong> Young Leaders Academy، Science، Craft، Drawing، Smart Kids</div>
-        <div class="section"><strong>المقاييس والبرامج المستخدمة داخل المركز:</strong> يتم تطبيق المقاييس والاختبارات بالتعاون مع أفضل المختصين، برامج متخصصة للعمل المكثف مع حالات التوحد والشلل الدماغي (40 ساعة في الشهر)، تنمية مهارات، تخاطب، علاج وظيفي.</div>
-        <div class="section"><strong>المقاييس:</strong> يتم تطبيق المقاييس مع الأطفال داخل المركز.</div>
-        <div class="section"><strong>مدير المركز:</strong> أسامة الصماد</div>
-        <di<div class="contact">
-            <a href="https://wa.me/201158279543" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> واتساب</a>
-            <a href="https://t.me/201158279543" target="_blank" class="telegram"><i class="fab fa-telegram"></i> تيليجرام</a>
-        </div>   </div>
-    </div>
+    <div id="center-details" class="center-container"></div>
 
-    <!-- مركز كيدز كيور للعلاج الطبيعي -->
-    <div class="container">
-        <h4>رقم التعريفي: 80</h4>
-        <h2>مركز كيدز كيور للعلاج الطبيعي المكثف للأطفال والتخاطب</h2>
-        <div class="section"><strong>اسم المركز:</strong> مركز كيدز كيور للعلاج الطبيعي المكثف للأطفال والتخاطب</div>
-        <div class="section"><strong>عنوان المركز:</strong> بنها، شارع عجيبة، أمام صيدلية محمد شوقي على نظارات طيبة</div>
-        <div class="section"><strong>المحافظة:</strong> القليوبية</div>
-        <div class="section"><strong>نظام المركز:</strong> رعاية نهارية، جلسات علاج طبيعي مكثفة، جلسات تخاطب، تنمية مهارات، تكامل حسي، بالإضافة إلى جلسات برايفت منزلية.</div>
-        <div class="section"><strong>المقاييس والبرامج المستخدمة داخل المركز:</strong> NDT، DMI، CME، Aqua Therapy، Sensory Integration، Dounage Suit (البدلة العلاجية)، بالإضافة إلى قسم خاص للتخاطب والعلاج الوظيفي.</div>
-        <div class="section"><strong>حالات التأهيل:</strong> حالات تأخر النمو اللغوي، حالات التوحد، حالات ضعف السمع، حالات الابراكسيا، الحالات التي تعاني من صعوبات التعلم، حالات التلعثم والخنفة، الحبسة الكلامية.</div>
-        <div class="section"><strong>البرامج العلاجية:</strong> جلسات علاج تأخر وعلاج عيوب النطق والكلام، علاج اللدغات، جلسات تعديل السلوك، جلسات تأهيل أكاديمي، تنمية المهارات العلمية، الاجتماعية، والسلوكية.</div>
-        <div class="contact">
-            <div class="contact">
-                <a href="https://wa.me/201158279543" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i> واتساب</a>
-                <a href="https://t.me/201158279543" target="_blank" class="telegram"><i class="fab fa-telegram"></i> تيليجرام</a>
-            </div>    </div>
-    </div>
-
-    <!-- زر الرجوع -->
-    <div class="buttons">
-        <a href="feature1.html" class="btn-back">previous page</a>
-    </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    padding: 20px;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.center {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center h3 {
+    color: #2C3E50;
+}
+
+.center p {
+    margin: 5px 0;
+}
+
+.center ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.center ul li {
+    margin-bottom: 5px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+.telegram {
+    background-color: #0088CC;
+}
+
+.button i {
+    margin-left: 5px;
+}
+
+</style>
+<script>
+  const centersData = [
+  {
+    name: "أم الدنيا",
+    address: "الورديان – ش القفال",
+    governorate: "الإسكندرية",
+    services: [
+      "تخاطب",
+      "تنمية مهارات",
+      "تدخل مبكر",
+      "تعديل سلوك",
+      "تكامل حسي",
+      "صعوبات تعلم",
+      "مهارات حركية",
+      "إرشاد أسري",
+      "تأهيل نفسي",
+      "تأهيل تخاطبي بعد الجلطات"
+    ],
+    cases: [
+      "تأخر لغوي",
+      "فرط حركة",
+      "التوحد",
+      "شلل دماغي",
+      "إعاقة عقلية",
+      "متلازمة داون",
+      "إعاقة سمعية",
+      "إعاقة بصرية"
+    ],
+    tests: [
+      "اختبار الذكاء",
+      "اختبارات التوحد",
+      "اختبارات فرط الحركة",
+      "اختبارات صعوبات التعلم",
+      "اختبارات التلعثم"
+    ],
+    management: ["د. سلوى محمد", "د. مريم جمال"],
+    contact: ["01270939808", "01210848244"],
+    uniqueId: "88"
+  },
+  {
+    name: "مركز دكتورة رانيا",
+    address: "أسيوط - ديروط",
+    governorate: "أسيوط",
+    services: ["تخاطب", "تنمية مهارات", "تعديل سلوك", "صعوبات تعلم"],
+    cases: ["فرط حركة", "صعوبات التعلم"],
+    tests: ["اختبار الذكاء", "مقياس الكأس لصعوبات التعلم", "كارز للتوحد"],
+    management: ["د. رانيا فوزي"],
+    contact: ["01028273083"],
+    uniqueId: "89"
+  },
+  {
+    name: "مركز جلسة تخاطب",
+    address: "الإسماعيلية - شارع سعد زغلول",
+    governorate: "الإسماعيلية",
+    services: ["جلسات تخاطب", "تنمية مهارات", "صعوبات التعلم"],
+    tests: [
+      "اختبار جيليام",
+      "كارز للتوحد",
+      "اختبار الذكاء",
+      "بطاريات الزيات"
+    ],
+    management: ["منى محمد السيد عيسى"],
+    contact: ["01272227453", "01225483142"],
+    uniqueId: "90"
+  },
+  {
+    name: "تواصل",
+    address: "المنيا - مركز ملوي",
+    governorate: "المنيا",
+    services: [
+      "تنمية مهارات",
+      "تخاطب",
+      "تعديل سلوك",
+      "إرشاد نفسي",
+      "إرشاد أسري"
+    ],
+    cases: ["التوحد", "الإعاقة العقلية"],
+    tests: [
+      "اختبار الذكاء",
+      "كارز للتوحد",
+      "اختبار اللغة"
+    ],
+    management: [],
+    contact: ["-"],
+    uniqueId: "91"
+  },
+  {
+    name: "خطوة بخطوة",
+    address: "أسيوط - شارع رياض",
+    governorate: "أسيوط",
+    services: [
+      "جلسات تخاطب",
+      "تنمية مهارات",
+      "صعوبات تعلم",
+      "تعديل سلوك",
+      "إرشاد نفسي"
+    ],
+    tests: [
+      "مقاييس تشخيص التوحد (كارز, جيليام)",
+      "اختبار كونرز لفرط الحركة",
+      "بطارية الزيات لصعوبات التعلم",
+      "اختبار الذكاء"
+    ],
+    management: ["أ/ ولاء طلعت صابر"],
+    contact: ["01098958192"],
+    uniqueId: "92"
+  }
+];
+
+// Add a new center with the phone number 01158279543
+const phoneNumber = "01158279543";
+
+const container = document.getElementById("center-details");
+
+centersData.forEach((center) => {
+  const div = document.createElement("div");
+  div.className = "center";
+
+  div.innerHTML = `
+    <h3>${center.name}</h3>
+    <p><strong>الرقم التعريفي:</strong> ${center.uniqueId}</p>
+    <p><strong>العنوان:</strong> ${center.address}</p>
+    <p><strong>المحافظة:</strong> ${center.governorate}</p>
+    <p><strong>الخدمات:</strong></p>
+    <ul>${center.services.map((service) => `<li>${service}</li>`).join("")}</ul>
+    ${
+      center.cases
+        ? `<p><strong>الحالات:</strong></p><ul>${center.cases
+            .map((c) => `<li>${c}</li>`)
+            .join("")}</ul>`
+        : ""
+    }
+    <p><strong>الاختبارات:</strong></p>
+    <ul>${center.tests.map((test) => `<li>${test}</li>`).join("")}</ul>
+    ${
+      center.management.length
+        ? `<p><strong>الإدارة:</strong></p><ul>${center.management
+            .map((m) => `<li>${m}</li>`)
+            .join("")}</ul>`
+        : ""
+    }
+    <p><strong>تواصل:</strong> ${center.contact.join(" / ")}</p>
+
+    <div class="button-container">
+      ${center.contact
+        .filter((phone) => phone !== "-")
+        .map(
+          (phone) => `
+          `
+        )
+        .join("")}
+      
+      <!-- Add buttons for the phone number 01158279543 -->
+      <a href="whatsapp://send?phone=${phoneNumber}" class="button whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i> حجز عبر واتساب
+      </a>
+      <a href="tg://resolve?domain=${phoneNumber}" class="button telegram" target="_blank">
+        <i class="fab fa-telegram"></i> حجز عبر تيليجرام
+      </a>
+    </div>
+  `;
+
+  container.appendChild(div);
+});
+
+</script>
