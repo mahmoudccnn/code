@@ -247,3 +247,39 @@ centersData.forEach((center) => {
 });
 
 </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button to Return</title>
+    <style>
+        /* CSS Styles */
+        #returnButton {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #returnButton:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML Button -->
+    <button id="returnButton">Go to Feature 1</button>
+
+    <script>
+        // JavaScript for Redirection
+        document.getElementById('returnButton').addEventListener('click', function() {
+            window.location.href = 'feature1.html'; // Redirect to feature1.html
+        });
+    </script>
+</body>
+</html>
